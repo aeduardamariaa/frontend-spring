@@ -10,13 +10,13 @@
 
 .navbar-color {
     background-color: #6B8A47;
-    width: 100wh;
+    width: 100vw;
     height: 7vh;
 }
 
 .tittle-nav {
     background-color: #6B8A47;
-    color: #F6C915;
+    color: #eeead6;
     text-decoration: none;
     font-size: 25px;
 }
@@ -46,7 +46,7 @@ form {
 }
 
 .bg-form {
-    background-color: #EAE3C0;
+    background-color: #eeead6;
 
 }
 
@@ -54,4 +54,42 @@ form {
     background-color: #6B8A47;
     border: none;
     color: #eeead6;
+}
+
+.div-search {
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+}
+
+.search  {
+    background-color: #eeead6;
+    width: 20%;
+}
+
+.div-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 20px;
+    justify-content: center;
+} 
+
+.div-externa {
+    display: flex;
+    justify-content: center;
+}
+
+.card, .card-img-top, .card-body, .card-title, .card-text, svg {
+    background-color: #ffffff;
+}
+
+.img-card {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 10px;
 }
