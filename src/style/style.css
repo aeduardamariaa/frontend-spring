@@ -54,8 +54,10 @@ main {
     align-items: center;
     text-align: center;
     background-color: #FFFAF2;
+    gap: 20px;
 }
 
 .card-body, .card-title, .card-img {
     background-color: #FFFFFF;
+    text-decoration: none;
 }
