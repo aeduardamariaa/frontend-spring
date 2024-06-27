@@ -99,5 +99,16 @@ form {
     background-color: transparent;
     margin-left: 8px;
     margin-right: 8px;
-
 }
+
+.paginate {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ .page-link, span {
+    background-color: #ffffff;
+    color: black;
+ }
