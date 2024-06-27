@@ -24,7 +24,7 @@
 .div-nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     width: 100%;
 }
 
@@ -57,14 +57,14 @@ form {
 }
 
 .div-search {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: end;
 }
 
-.search  {
+.search {
     background-color: #eeead6;
-    width: 20%;
+    width: 500px;
 }
 
 .div-cards {
@@ -92,4 +92,12 @@ form {
 
 .card {
     padding: 10px;
+}
+
+.logo {
+    width: 55px;
+    background-color: transparent;
+    margin-left: 8px;
+    margin-right: 8px;
+
 }

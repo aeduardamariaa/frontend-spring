@@ -24,7 +24,7 @@
 .div-nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     width: 100%;
 }
 
@@ -49,6 +49,7 @@ form {
     width: 30vw;
     padding: 20px;
     border-radius: 10px;
+    min-width: 300px;
 }
 
 .bg-form {
@@ -60,4 +61,10 @@ form {
     background-color: #6B8A47;
     border: none;
     color: #eeead6;
+}
+.logo {
+    width: 55px;
+    background-color: transparent;
+    margin-left: 8px;
+    margin-right: 8px;
 }
