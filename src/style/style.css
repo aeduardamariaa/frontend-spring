@@ -9,8 +9,6 @@
 
 .navbar-color {
     background-color: #6B8A47;
-    width: 100wh;
-    height: 7vh;
 }
 
 .tittle-nav {
@@ -23,8 +21,8 @@
 .div-nav {
    display: flex;
    align-items: center;
-   justify-content: center;
-   width: 100vw;
+   width: 100vw; 
+   height: 8vh;
 }
 
 main {
@@ -32,7 +30,7 @@ main {
 }
 
 .div-main {
-    height: 93vh;
+    height: 90vh;
     display: flex;
     align-items: center;
         gap: 20px;
@@ -60,4 +58,10 @@ main {
 .card-body, .card-title, .card-img {
     background-color: #FFFFFF;
     text-decoration: none;
+}
+
+.logo {
+    width: 55px;
+    background-color: transparent;
+    /* margin: 8px; */
 }

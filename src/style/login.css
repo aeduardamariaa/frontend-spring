@@ -1,27 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html {
-  height: 100%;
-  background-color: #eeead6;
-  background-image: url("../images/fundinho.png") ;
+  height: 100vh;
+  margin: 0;
   font-family: "Poppins", sans-serif;
+  background-image: url("../images/fundinho.png") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
+body{
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  position: absolute;
+  top: -25%; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo {
+  width: 130px;
+  height: auto;
+}
 
 .login-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position: relative;
+  width: 80vw;
+  max-width: 700px;
   height: 400px;
-  width: 700px;
   padding: 40px;
-  transform: translate(-50%, -50%);
-  background: #8ea772;
+  background: #8ea772; /* Cor de fundo do formulário */
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(82, 81, 81, 0.6);
   border-radius: 10px;
@@ -36,24 +55,23 @@ html {
 
 .login-box .user-box {
   position: relative;
+  margin-bottom: 30px;
 }
 
 .login-box .user-box input {
   width: 100%;
-  padding: 10px 0;
   font-size: 24px;
   color: #fff;
-  margin-bottom: 30px;
   border: none;
   border-bottom: 1px solid #fff;
   outline: none;
   background: transparent;
 }
+
 .login-box .user-box label {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
-  padding: 10px 0;
   font-size: 16px;
   color: #fff;
   pointer-events: none;
@@ -62,36 +80,20 @@ html {
 
 .login-box .user-box input:focus ~ label,
 .login-box .user-box input:valid ~ label {
-  top: -20px;
   left: 0;
-  color: #6B8A47;
+  color: #6B8A47; /* Cor do texto do label quando o input está focado ou preenchido */
   font-size: 12px;
 }
 
-.login-box form a {
-  position: relative;
-  display: inline-block;
-  padding: 10px 20px;
-  color: #6B8A47;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: .5s;
-  margin-top: 40px;
-  letter-spacing: 4px
+.login-box form button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  height: 40px;
+  width: 100px;
+  background: #6B8A47; /* Cor de fundo do botão */
+  cursor: pointer;
+  margin-top: 20px;
 }
-
-button{
-    /* border-color: #405c35; */
-    border: none;
-    border-radius:10px;
-    color: white;
-    font-size: 18px;
-    font-weight: 200;
-     
-    height:40px;
-    width: 100px;
-    background: #6B8A47;
-}
-
