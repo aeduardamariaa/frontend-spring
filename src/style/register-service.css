@@ -29,24 +29,30 @@
 }
 
 .tittle-register {
-    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    margin-left: 20px;
+    height: 15vh;
+    align-items: end;
 }
 
 .div-form {
     display: flex;
     justify-content: center;
+
+    height: 40vh;
+    align-items: center;
 }
 
 form {
-    background-color: #EAE3C0;
+    background-color: #FFFFFF;
     width: 30vw;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .bg-form {
-    background-color: #EAE3C0;
+    background-color: #FFFFFF;
 
 }
 
