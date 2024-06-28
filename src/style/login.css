@@ -111,3 +111,16 @@ div {
 .progress-bar {
   border-radius: 5px;
 }
+
+/* CORES PRA SENHA */
+.bg-danger {
+  background-color: #be5e53; 
+}
+
+.bg-warning {
+  background-color: #d3a25a;
+}
+
+.bg-success {
+  background-color: rgb(64, 139, 83);
+}

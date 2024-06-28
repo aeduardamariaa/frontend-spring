@@ -29,16 +29,17 @@ function isGood(password) {
       case 0:
       case 1:
       case 2:
-        strength = "<small class='progress-bar bg-danger' style='width: 40%'>Fraca</small>";
-        break;
+          strength = "<small class='progress-bar bg-danger' >Fraca</small>";
+          break;
       case 3:
-        strength = "<small class='progress-bar bg-warning' style='width: 60%'>Média</small>";
-        break;
+          strength = "<small class='progress-bar bg-warning' >Média</small>";
+          break;
       case 4:
-        strength = "<small class='progress-bar bg-success' style='width: 100%'>Forte</small>";
-        break;
-
-    }
+          strength = "<small class='progress-bar bg-success' >Forte</small>";
+          break;
+      default:
+          break;
+  }
     password_strength.innerHTML = strength;
 
   }
