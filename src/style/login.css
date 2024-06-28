@@ -113,13 +113,16 @@ div {
 
 /* CORES PRA SENHA */
 .bg-danger {
+  color: #fff;
   background-color: #be5e53; 
 }
 
 .bg-warning {
+  color: #fff;
   background-color: #d3a25a;
 }
 
 .bg-success {
+  color: #fff;
   background-color: rgb(64, 139, 83);
 }

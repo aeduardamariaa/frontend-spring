@@ -21,19 +21,17 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         var regex = new Array();
-        regex.push("[A-Z]"); // Uppercase Alphabet.
-        regex.push("[a-z]"); // Lowercase Alphabet.
-        regex.push("[0-9]"); // Digit.
-        regex.push("[$@$!%*#?&]"); // Special Character.
+        regex.push("[A-Z]"); 
+        regex.push("[a-z]"); 
+        regex.push("[0-9]"); 
+        regex.push("[$@$!%*#?&]"); 
 
         var passed = 0;
 
-        // Check for length
         if (password.length >= 8) {
             passed++;
         }
 
-        // Check each regex
         for (var i = 0; i < regex.length; i++) {
             if (new RegExp(regex[i]).test(password)) {
                 passed++;
@@ -75,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         password_strength.innerHTML = strength;
     }
-    
+
     password_strength.innerHTML = strength;
     
     function checkPasswordMatch() {
